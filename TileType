@@ -1,0 +1,14 @@
+// March 2015
+// Kyle Bull
+//  This file is used to make name maps
+
+using UnityEngine;
+using System.Collections;
+
+[System.Serializable]
+public class TileType {
+
+	public string name;
+	public GameObject tileVisualPrefab;
+
+}
